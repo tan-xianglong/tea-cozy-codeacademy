@@ -1,0 +1,142 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 600;
+  margin: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 2.5rem;
+  font-weight: 700;
+}
+
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left:0;
+  width: 100%;
+  min-height: 69px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  padding: 9.5px 10px;
+}
+
+.logo > img {
+  height: 50px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links > ul {
+  display: flex;
+}
+
+.links > ul > li {
+  margin: 0.75rem;
+}
+
+.links > ul > li > a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.banner {
+  margin: 74px auto;
+  height: 700px;
+  background-image: url("/images/img-mission-background.jpeg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bannerText {
+  width: 100%;
+  background-color: black;
+}
+
+#teaSelection {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.teaCard {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 300px;
+  margin: 0 0.75rem 0.75rem;
+
+}
+
+.teaCard > img {
+  max-width: 300px;
+  max-height: 200px;;
+}
+
+#locations {
+  background-image: url(/images/img-locations-background.jpeg);
+  min-height: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.outlet {
+  background-color: black;
+  opacity: 1;
+  margin: 0 40px 15px;
+  min-width: 300px;
+}
+
+.outlet > h3, .outlet > p{
+  margin: 1.5rem auto 2.5rem;
+}
+
+.contactUs {
+  min-height: 200px;
+}
+
+#copy {
+  text-align: left;
+  margin: 20px;
+}
